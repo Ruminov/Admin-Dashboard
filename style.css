@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  min-height: 100svh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+aside {
+  background-color: blue;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+header {
+  background-color: red;
+}
+
+.search-header {
+}
+
+.profile-header {
+}
+
+main {
+  background-color: green;
+  display: grid;
+}
+
+.announcements {
+  background-color: yellow;
+}
+
+.trending {
+  background-color: orange;
+}
+
+nav ul {
+  list-style: none;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+img {
+}
